@@ -1,0 +1,66 @@
+$colorYellow: hsl(47, 88%, 63%);
+$colorWhite: hsl(0, 0%, 100%);
+$colorBlack: hsl(0, 0%, 7%);
+$colorGray: hsl(0, 0%, 50%);
+$colorBlue: hsl(228, 45%, 44%);
+$fontsizeSmall: 0.85em;
+$fontweightHeavy: 800;
+$fontweightMedium: 500;
+
+body {
+  background-color: $colorYellow;
+  font-family: "Figtree", sans-serif;
+
+  main {
+    section {
+      background-color: $colorWhite;
+      color: $colorBlack;
+      max-width: 24rem;
+      box-shadow: 8px 10px black;
+
+      span:nth-of-type(1) {
+        background-color: $colorYellow;
+        padding: 0.4rem 0.8rem;
+        font-size: $fontsizeSmall;
+        font-weight: $fontweightHeavy;
+      }
+
+      p:nth-of-type(1) {
+        font-size: $fontsizeSmall;
+        font-weight: $fontweightMedium;
+      }
+
+      h1 {
+        font-weight: $fontweightHeavy;
+      }
+
+      h1:hover {
+        cursor: pointer;
+        color: $colorYellow;
+      }
+
+      p:nth-of-type(2) {
+        color: $colorGray;
+        font-weight: $fontweightMedium;
+      }
+
+      img:nth-of-type(2) {
+        max-width: 2rem;
+      }
+
+      span:nth-of-type(2) {
+        font-size: $fontsizeSmall;
+        font-weight: $fontweightHeavy;
+        top: 0.25rem;
+      }
+    }
+
+    section:hover {
+      box-shadow: 16px 20px black;
+    }
+  }
+
+  footer a {
+    color: $colorBlue;
+  }
+}

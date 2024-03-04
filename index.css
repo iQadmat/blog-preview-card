@@ -1,0 +1,45 @@
+body {
+  background-color: hsl(47, 88%, 63%);
+  font-family: "Figtree", sans-serif;
+}
+body main section {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 7%);
+  max-width: 24rem;
+  box-shadow: 8px 10px black;
+}
+body main section span:nth-of-type(1) {
+  background-color: hsl(47, 88%, 63%);
+  padding: 0.4rem 0.8rem;
+  font-size: 0.85em;
+  font-weight: 800;
+}
+body main section p:nth-of-type(1) {
+  font-size: 0.85em;
+  font-weight: 500;
+}
+body main section h1 {
+  font-weight: 800;
+}
+body main section h1:hover {
+  cursor: pointer;
+  color: hsl(47, 88%, 63%);
+}
+body main section p:nth-of-type(2) {
+  color: hsl(0, 0%, 50%);
+  font-weight: 500;
+}
+body main section img:nth-of-type(2) {
+  max-width: 2rem;
+}
+body main section span:nth-of-type(2) {
+  font-size: 0.85em;
+  font-weight: 800;
+  top: 0.25rem;
+}
+body main section:hover {
+  box-shadow: 16px 20px black;
+}
+body footer a {
+  color: hsl(228, 45%, 44%);
+}/*# sourceMappingURL=index.css.map */
